@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chewy&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*
+font-family: "Caveat", cursive;
+font-family: "IBM Plex Serif", serif;
+font-family: "Chewy", system-ui;
+*/
+
+/*
+Rayne Bailey|student ID: 7822531
+*/
+
+header {
+    background: #4ecdc4;
+    color: #f7fff7;
+    border: 5px #ffe66d dashed;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-size: 70px;
+}
+
+header h1 span {
+    display: block;
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+}
+
+nav {
+    background: #ff6b6b;
+}
+
+nav table {
+    width: 100%;
+    table-layout: fixed;
+    width: 100%;
+}
+
+nav tr th a {
+    text-decoration: none;
+    color: #f7fff7;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 20px;
+}
+
+table, tr, th, td {
+    border: 2px solid #f7fff7;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+h2 {
+    color: #4ecdc4;
+    text-align: center;
+    font-family: "Chewy", system-ui;
+    font-size: 50px;
+}
+
+h3 {
+    color: #292f36;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+ul li {
+    font-size: 25px;
+}
+
+.homepage img {
+    width: 700px;
+    display: block;
+    margin: auto;
+    border: #ffe66d 5px solid;
+}
+
+.homepage p {
+    text-align: center;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.our_story p, .our_mission p, .offer p, .volunteer p, .foster p, .donate p {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 20px;
+    margin-bottom: 90px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.offer p, .donate p {
+    margin-bottom: 120px;
+}
+
+.our_story img, .our_mission img, .offer img, .volunteer img, .foster img, .donate img {
+    width: 350px;
+    float: right;
+    margin-left: 10px;
+    border: #ffe66d 5px solid;
+}
+
+.contact ul {
+    font-family: "IBM Plex Serif", serif;
+    list-style-type: none;
+    text-align: center;
+}
+
+.contact ul li span {
+    font-weight: bold;
+}
+
+.help ul {
+    font-family: "IBM Plex Serif", serif;
+    list-style-type: none;
+    text-align: center;
+}
+
+.help ul li span {
+    font-weight: bold;
+}
+
+footer {
+    background: #4ecdc4;
+    color: #f7fff7;
+    font-family: "IBM Plex Serif", serif;
+    padding: 3px;
+    padding-left: 10px;
+}
